@@ -1,0 +1,79 @@
+body {
+    background-color: #F0F0DC;
+    font-family: Inter;
+}
+
+.navbar {
+    background: #E1E1B9;
+    height: 125px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar-text {
+    color: black;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+#book-now {
+    margin-right: -75px;
+    margin-top: 25px;
+    background-color: #F7C744;
+    border-radius: 60px;
+    height: 41px;
+    width: 130px;
+    border: none;
+    padding: 0px;
+}
+
+.home-button {
+    background-color: #218EBC;
+    border-radius: 60px;
+    border: none;
+    color: white;
+    width: 373px;
+    height: 68px;
+    font-size: 90px;
+}
+
+.text-center {
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+}
+
+.page-link {
+    text-decoration: none;
+}
+
+.current {
+    text-decoration: underline;
+    text-decoration-thickness: 2.5px;
+}
+
+.image-with-text {
+    margin-top: 100px;
+    margin-left: -40px;
+    position: relative;
+}
+
+.statement-title {
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    width: 100%;
+    font-size: 90px;
+    font-family: Yeseva One;
+    color: black;
+}
+
+.statement-subtitle {
+    position: absolute;
+    top: 380px;
+    left: 150px;
+    font-size: 34px;
+    color: black;
+    font-weight: 400;
+}
