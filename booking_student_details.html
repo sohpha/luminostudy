@@ -71,28 +71,34 @@
             <div class="row" style="margin-top:30px; margin-bottom:40px">
                 <h1 class="page-title" style="font-size:40px;">Step 3: Enter student details</h1>
             </div>
-            <form class="row g-3" style="padding-left:475px; padding-right:475px">
+            <form class="row g-3" style="padding-left:400px; padding-right:400px">
                 <div class="col-md-12">
                     <label for="firstName" class="form-label">First name</label>
-                    <input type="text" class="form-control" id="firstName" placeholder="First name">
+                    <input type="text" class="form-control" id="firstName" placeholder="First name" required>
                 </div>
                 <div class="col-md-12">
                     <label for="lastName" class="form-label">Last name</label>
-                    <input type="text" class="form-control" id="lastName" placeholder="Last name">
+                    <input type="text" class="form-control" id="lastName" placeholder="Last name" required>
                 </div>
                 <div class="col-md-12">
                     <label for="emailAddress" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="emailAddress" placeholder="example@email.com">
+                    <input type="email" class="form-control" id="emailAddress" placeholder="example@email.com" required>
                 </div>
                 <div class="col-md-12">
                     <label for="phoneNumber" class="form-label">Phone number</label>
-                    <input type="text" class="form-control" id="phoneNumber" placeholder="+1 (123) 456-7890">
+                    <input type="text" class="form-control" id="phoneNumber" placeholder="(123) 456-7890" required>
                 </div>
                 <div class="row text-center" style="margin-top: 60px">
-                    <div class="row" style="margin-top: 60px">
-                        <a class="page-link" href="booking_confirmation.html" style="margin-top:-70px">
-                            <button class="d-flex get-started-btn text-center" id="bookSessionBtn" type="button"
-                                style="height:40px; width:300px;"><b class="text-center" style="font-size:22px">
+                    <div class="col-md-6" style="margin-top: 60px;">
+                        <a class="page-link anchor-btn" role="button" href="booking_date_time.html"
+                            style="margin-top:-70px">
+                            <- Return to Step 3 </a>
+                    </div>
+                    <div class="col-md-6" style="margin-top: 60px;">
+                        <a class="page-link anchor-btn" href="booking_confirmation.html" style="margin-top:-70px">
+                            <button class="d-flex get-started-btn text-center" id="bookSessionBtn" type="submit"
+                                style="height:40px; width:200px;" formaction="booking_confirmation.html"><b
+                                    class="text-center" style="font-size:22px">
                                     Book Session
                             </button>
                         </a>

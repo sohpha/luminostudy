@@ -103,6 +103,8 @@ window.onload = function () {
         emailConfirmation = document.getElementById("studentEmail")
         emailConfirmation.innerHTML += localStorage.getItem("email")
 
+        localStorage.clear
+
     }
 
 

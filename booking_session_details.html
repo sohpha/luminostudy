@@ -72,7 +72,7 @@
         <form class="row g-3" style="padding-left:475px; padding-right:475px">
             <div class="col-md-12">
                 <label for="serviceType" class="form-label">1. Select tutoring service</label>
-                <select class="form-select" id="serviceType" aria-placeholder="Select service">
+                <select class="form-select" id="serviceType" aria-placeholder="Select service" required>
                     <option value="" selected="selected" style="display:none">Select service</option>
                     <option value="homeworkHelp">Homework help</option>
                     <option value="subjectTutoring">Subject tutoring</option>
@@ -81,7 +81,7 @@
             </div>
             <div class="col-md-12">
                 <label for="subject" class="form-label">2. Select subject</label>
-                <select class="form-select" id="subject">
+                <select class="form-select" id="subject" required>
                     <option value="" selected="selected" style="display:none">Select subject</option>
                     <option value="math">Math</option>
                     <option value="science">Science</option>
@@ -91,7 +91,7 @@
             </div>
             <div class="col-md-12">
                 <label for="tutor" class="form-label">3. Select tutor</label>
-                <select class="form-select" id="tutor">
+                <select class="form-select" id="tutor" required>
                     <option value="" selected="selected" style="display:none">Select tutor</option>
                     <option value="alina">Alina Hassan</option>
                     <option value="victor">Victor Brown</option>
@@ -100,11 +100,11 @@
             </div>
             <div class="row text-center" style="margin-top: 60px">
                 <div class="row" style="margin-top: 60px">
-                    <a class="page-link" href="booking_date_time.html" style="margin-top:-70px">
-                        <button class="d-flex get-started-btn text-center" type="button"
-                            style="height:40px; width:300px;" id="step2Btn"><b class="text-center" style="font-size:22px">
+                    <a class="page-link anchor-btn" href="booking_date_time.html" style="margin-top:-70px; margin-left:15px">
+                       <button class="d-flex get-started-btn text-center" type="submit"
+                            style="height:40px; width:300px;" id="step2Btn" formaction="booking_date_time.html"><b class="text-center" style="font-size:22px">
                                 Continue to Step 2 ->
-                        </button>
+                        </button> 
                     </a>
                 </div>
             </div>
