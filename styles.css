@@ -265,3 +265,9 @@ ul {
 #bookingConfirmation h4 {
     font-size: 20px;
 }
+
+.testimonial {
+    font-family:Inter;
+    font-weight:250;
+    margin-top:20px;
+}
