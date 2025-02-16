@@ -17,13 +17,17 @@ window.onload = function () {
             var idris = tutors.options[3]
             var victor = tutors.options[2]
             if (subjectOption.selectedIndex === 1 || subjectOption.selectedIndex === 2) {
-                victor.style.display = 'unset'
+                //victor.style.display = 'unset'
                 tutors.selectedIndex = 2
-                idris.style.display = 'none';
+                //idris.style.display = 'none';
+                victor.disabled = false;
+                idris.disabled = true;
             } else if (subjectOption.selectedIndex === 3 || subjectOption.selectedIndex === 4) {
-                idris.style.display = 'unset'
+                //idris.style.display = 'unset'
                 tutors.selectedIndex = 3
-                victor.style.display = 'none';
+                //victor.style.display = 'none';
+                victor.disabled = true;
+                idris.disabled = false;
             }
         }
 
