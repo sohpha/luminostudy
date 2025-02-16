@@ -82,7 +82,8 @@ body {
     border-radius: 60px;
     background-color: rgba(247, 199, 68, 0.70);
     border: 1px;
-    border-color: black;/*#F7C744;*/
+    border-color: black;
+    /*#F7C744;*/
     outline: 2.5px solid;
     height: 450px;
 }
@@ -119,6 +120,7 @@ body {
     width: 300px;
     height: 68px;
     font-size: 90px;
+    font-family: Inter;
 }
 
 .page-title {
@@ -152,6 +154,13 @@ body {
     border-color: #F7C744;
 }
 
+.form-select {
+    border-radius: 30px;
+    border: 2.5px solid;
+    border-color: #F7C744;
+
+}
+
 #MessageBox {
     padding: 10px;
     max-width: 100%;
@@ -160,7 +169,7 @@ body {
 }
 
 .form-label {
-    margin-left:10px;
+    margin-left: 10px;
     font-family: Inter;
     font-weight: bold;
     color: black;
@@ -170,35 +179,36 @@ body {
     background-color: transparent;
     outline: 3px solid;
     border-color: rgba(247, 199, 68, 0.80);
-    height:570px;
+    height: 570px;
     width: 389px;
 }
 
 .serviceCardBody {
-    background-color:rgba(247, 199, 68, 0.70);
+    background-color: rgba(247, 199, 68, 0.70);
     border-radius: 60px 60px 0px 0px;
     /*height:75px;*/
-    height:15%;
-    width:100%;
+    height: 15%;
+    width: 100%;
     outline: 3px solid;
 
 }
 
 .card-title-service {
-    margin-top:20px;
+    margin-top: 20px;
 }
+
 .card-subtitle {
     font-size: 25px;
     font-family: Inter;
-    color:black;
-    margin-top:30px;
+    color: black;
+    margin-top: 30px;
 }
 
 .card-text-service {
-    font-size:25px;
+    font-size: 25px;
     font-family: Inter;
-    color:black;
-    margin-top:7px;
+    color: black;
+    margin-top: 7px;
 }
 
 .card-img-bottom {
@@ -208,4 +218,50 @@ body {
 
 ul {
     list-style-type: none;
+}
+
+.anchor-btn {
+    background-color: #218EBC;
+    border-radius: 60px;
+    border: none;
+    color: white;
+    width: 225px;
+    height: 40px;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.anchor-btn:hover {
+    background-color: #218EBC;
+    border-radius: 60px;
+    border: none;
+    color: white;
+    width: 225px;
+    height: 40px;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.center-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#bookingConfirmation {
+    font-family: Inter;
+    background: white;
+    border-radius: 60px;
+    border: 3px #F7C744 solid;
+    height:380px;
+    width: 600px;
+    padding-top: 20px;
+}
+
+#bookingConfirmation h4 {
+    font-size: 20px;
 }

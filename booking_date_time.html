@@ -45,7 +45,7 @@
                 </a>
             </span>
             <span class="navbar-text">
-                <a class="page-link current" href="contact.html">
+                <a class="page-link" href="contact.html">
                     <b>Contact</b>
                 </a>
             </span>
@@ -59,41 +59,46 @@
             </a>
         </div>
     </nav>
-
-    <div class="container" style="padding-left:300px; padding-right:300px">
-        <div class="row" style="margin-top:20px; margin-bottom:20px;">
-            <h1 class="page-title" style="font-size:40px;">Leave Us a Message</h1>
+    <div class="containter">
+        <div class="row" style="margin-top:30px; margin-bottom:40px">
+            <h1 class="page-title" style="font-size:40px;">Step 2: Choose a date and time</h1>
         </div>
-        <form class="row g-3">
-            <div class="col-md-6">
-                <label for="firstName" class="form-label">First name</label>
-                <input type="text" class="form-control" id="lastName" placeholder="First name">
-            </div>
-            <div class="col-md-6">
-                <label for="lastName" class="form-label">Last name</label>
-                <input type="text" class="form-control" id="lastName" placeholder="Last name">
-            </div>
-            <div class="col-12">
-                <label for="emailAddress" class="form-label">Email</label>
-                <input type="email" class="form-control" id="emailAddress" placeholder="example@email.com">
-            </div>
-            <div class="col-12">
-                <label for="phoneNumber" class="form-label">Phone number</label>
-                <input type="text" class="form-control" id="phoneNumber" placeholder="+1 (123) 456-7890">
+        <form class="row g-3" style="padding-left:505px; padding-right:505px;">
+            <div class="col-md-12">
+                <label for="date" class="form-label" style="padding-left:100px">1. Enter date</label>
+                <div class="center-container">
+                    <input type="date" class="form-control" id="date" placeholder="Select date" style="width:300px;"> 
+                </div>
             </div>
             <div class="col-md-12">
-                <label for="Message" class="form-label">Message</label>
-                <textarea type="textarea" class="form-control" id="MessageBox" rows="10" cols="40" placeholder="Leave your message here"></textarea>
+                <label for="time" class="form-label" style="padding-left: 100px;">2. Select time</label>
+                <div class="center-container">
+                    <select class="form-select" id="time" style="width:300px">
+                        <option value="9:00AM-10:00AM">9:00AM-10:00AM</option>
+                        <option value="10:00AM-11:00AM">10:00AM-11:00AM</option>
+                        <option value="11:00AM-12:00PM">11:00AM-12:00PM</option>
+                        <option value="12:00PM-1:00PM">12:00PM-1:00PM</option>
+                        <option value="1:00PM-2:00PM">1:00PM-2:00PM</option>
+                        <option value="2:00PM-3:00PM">2:00PM-3:00PM</option>
+                        <option value="3:00PM-4:00PM">3:00PM-4:00PM</option>
+                        <option value="4:00PM-5:00PM">4:00PM-5:00PM</option>
+                        <option value="5:00PM-6:00PM">5:00PM-6:00PM</option>
+                        <option value="6:00PM-7:00PM">6:00PM-7:00PM</option>
+                    </select>
+                </div>
             </div>
-            <div class="row" style="margin-top: 60px">
-                <button class="d-flex get-started-btn text-center" type="submit"><b class="text-center"
-                        style="font-size:25px;">Submit</b></button>
+            <div class="row text-center" style="margin-top: 60px">
+                <div class="col-md-6" style="margin-top: 60px">
+                        <a class="page-link anchor-btn" role="button" href="booking_session_details.html" style="margin-top:-70px">
+                            <- Return to Step 2
+                        </a>
+                </div>
+                <div class="col-md-6" style="margin-top: 60px">
+                    <a class="page-link anchor-btn" role="button" href="booking_student_details.html" style="margin-top:-70px">
+                        Continue to Step 3 ->
+                    </a>
+                </div>
             </div>
         </form>
     </div>
-
-    <!-- Bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
 </body>
