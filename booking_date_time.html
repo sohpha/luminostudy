@@ -68,17 +68,18 @@
         <div class="row" style="margin-top:30px; margin-bottom:40px">
             <h1 class="page-title" style="font-size:40px;">Step 2: Choose a date and time</h1>
         </div>
-        <form class="row g-3" style="padding-left:505px; padding-right:505px;">
+        <form class="row g-3" style="padding-left:20rem; padding-right:20rem;">
             <div class="col-md-12">
-                <label for="date" class="form-label" style="padding-left:50px">1. Enter date</label>
+                <label for="date" class="form-label" style="padding-left:27%">1. Enter date</label>
                 <div class="center-container">
-                    <input type="date" class="form-control" id="date" placeholder="Select date" style="width:400px;" required> 
+                    <input type="date" class="form-control" id="date" placeholder="Select date" style="width:25rem;"
+                        required>
                 </div>
             </div>
             <div class="col-md-12">
-                <label for="time" class="form-label" style="padding-left: 50px;">2. Select time</label>
+                <label for="time" class="form-label" style="padding-left:27%;">2. Select time</label>
                 <div class="center-container">
-                    <select class="form-select" id="time" style="width:400px" required>
+                    <select class="form-select" id="time" style="width:25rem" required>
                         <option value="9:00AM-10:00AM">9:00AM-10:00AM</option>
                         <option value="10:00AM-11:00AM">10:00AM-11:00AM</option>
                         <option value="11:00AM-12:00PM">11:00AM-12:00PM</option>
@@ -92,23 +93,21 @@
                     </select>
                 </div>
             </div>
-            <div class="row text-center" style="margin-top: 60px">
-                <div class="col-md-6" style="margin-top: 60px">
-                        <a class="page-link anchor-btn" role="button" href="booking_session_details.html" style="margin-top:-70px">
-                            <- Return to Step 2
-                        </a>
-                </div>
-                <div class="col-md-6" style="margin-top: 60px">
-                 <!--<a class="page-link anchor-btn" id="step3Btn" role="button" href="booking_student_details.html" style="margin-top:-70px" type="submit" formaction="booking_student_details.html">
-                        Continue to Step 3 ->
-                    </a> --> 
 
+            <div class="row text-center" style="margin-top: 60px">
+                <div class="col-md-6 d-flex justify-content-end" style="margin-top: 60px;">
+                    <a class="page-link anchor-btn" role="button" href="booking_session_details.html"
+                        style="margin-top:-70px; font-size:18px">
+                        <- Return to Step 1 </a>
+                </div>
+                <div class="col-md-6" style="margin-top: 60px;">
                     <a class="page-link anchor-btn" href="booking_student_details.html" style="margin-top:-70px">
-                        <button class="d-flex get-started-btn text-center" type="submit"
-                             style="height:40px; width:250px;" id="step3Btn" formaction="booking_student_details.html"><b class="text-center" style="font-size:22px">
-                                 Continue to Step 3 ->
-                         </button> 
-                     </a>
+                        <button class="d-flex get-started-btn text-center" id="step3Btn" type="submit"
+                            style="height:40px; width:12.5rem;" formaction="booking_student_details.html"><b
+                                class="text-center" style="font-size:18px">
+                                Continue to Step 3 ->
+                        </button>
+                    </a>
                 </div>
             </div>
         </form>
